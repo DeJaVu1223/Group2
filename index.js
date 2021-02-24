@@ -25,7 +25,7 @@ const prompt = require('prompt-sync')({sigint: true});
 function acceptStudents (id,fullName,age,address){
 
 console.log('ID: ', Number(id));
-console.log(`Name:  `, fullName);
+console.log(`Name: `, fullName);
 console.log('Age: ', Number(age))
 console.log('Address: ', address)
 }
